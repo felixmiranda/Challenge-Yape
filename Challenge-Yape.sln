@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E54C0E3E-0189-4CCF-8DB9-3BE979D5D49E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PersonWCFService", "PersonWCFService\", "{21210563-2778-45F8-9AEF-79D15DE104CF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{99347b32-6ec3-49b4-9bb0-a86aa349bb0b}|PersonService.DTOs.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64741"
+		Debug.AspNetCompiler.PhysicalPath = "PersonWCFService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64741\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64741"
+		Release.AspNetCompiler.PhysicalPath = "PersonWCFService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64741\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64741"
+		SlnRelativePath = "PersonWCFService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Service Layer", "1. Service Layer", "{CFF69A8A-CA09-4CBA-8D6A-B9DFAFA4BDA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Logic Layer", "2. Business Logic Layer", "{38BC4562-E287-48D5-872B-527351E01876}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Access Layer", "3. Data Access Layer", "{3332D352-139A-4CB7-8CDA-CD3D0C2954FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. DTOs", "4. DTOs", "{3D6A360E-232B-4060-B363-82935DA78471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.DTOs", "PersonService.DTOs\PersonService.DTOs.csproj", "{99347B32-6EC3-49B4-9BB0-A86AA349BB0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.DataAccessLayer", "PersonService.DataAccessLayer\PersonService.DataAccessLayer.csproj", "{C2D3585F-C468-431D-8780-AA255B755D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.BusinessLogicLayer", "PersonService.BusinessLogicLayer\PersonService.BusinessLogicLayer.csproj", "{297F7341-85A7-4ADF-BE9E-2663D49A5DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21210563-2778-45F8-9AEF-79D15DE104CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21210563-2778-45F8-9AEF-79D15DE104CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21210563-2778-45F8-9AEF-79D15DE104CF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{21210563-2778-45F8-9AEF-79D15DE104CF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{99347B32-6EC3-49B4-9BB0-A86AA349BB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99347B32-6EC3-49B4-9BB0-A86AA349BB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99347B32-6EC3-49B4-9BB0-A86AA349BB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99347B32-6EC3-49B4-9BB0-A86AA349BB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D3585F-C468-431D-8780-AA255B755D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D3585F-C468-431D-8780-AA255B755D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D3585F-C468-431D-8780-AA255B755D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D3585F-C468-431D-8780-AA255B755D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297F7341-85A7-4ADF-BE9E-2663D49A5DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297F7341-85A7-4ADF-BE9E-2663D49A5DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297F7341-85A7-4ADF-BE9E-2663D49A5DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297F7341-85A7-4ADF-BE9E-2663D49A5DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21210563-2778-45F8-9AEF-79D15DE104CF} = {CFF69A8A-CA09-4CBA-8D6A-B9DFAFA4BDA4}
+		{CFF69A8A-CA09-4CBA-8D6A-B9DFAFA4BDA4} = {E54C0E3E-0189-4CCF-8DB9-3BE979D5D49E}
+		{38BC4562-E287-48D5-872B-527351E01876} = {E54C0E3E-0189-4CCF-8DB9-3BE979D5D49E}
+		{3332D352-139A-4CB7-8CDA-CD3D0C2954FE} = {E54C0E3E-0189-4CCF-8DB9-3BE979D5D49E}
+		{3D6A360E-232B-4060-B363-82935DA78471} = {E54C0E3E-0189-4CCF-8DB9-3BE979D5D49E}
+		{99347B32-6EC3-49B4-9BB0-A86AA349BB0B} = {3D6A360E-232B-4060-B363-82935DA78471}
+		{C2D3585F-C468-431D-8780-AA255B755D2B} = {3332D352-139A-4CB7-8CDA-CD3D0C2954FE}
+		{297F7341-85A7-4ADF-BE9E-2663D49A5DC8} = {38BC4562-E287-48D5-872B-527351E01876}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4549FB4-7E25-4917-BBE0-FA82AB393EED}
+	EndGlobalSection
+EndGlobal
