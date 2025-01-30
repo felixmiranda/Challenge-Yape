@@ -1,13 +1,12 @@
-﻿using System;
+﻿using PersonService.DTOs;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 
-
-public class PersonRepository
+namespace PersonService.DataAccessLayer
 {
-    // Simulamos una base de datos con una lista en memoria
-    private readonly List<PersonResponse> _persons = new List<PersonResponse>
+    public class PersonRepository
+    {
+        private readonly List<PersonResponse> _persons = new List<PersonResponse>
         {
             new PersonResponse
             {
@@ -27,8 +26,9 @@ public class PersonRepository
             }
         };
 
-    public PersonResponse GetPersonByCellPhoneNumber(string cellPhoneNumber)
-    {
-        return _persons.FirstOrDefault(p => p.CellPhoneNumber == cellPhoneNumber);
+        public PersonResponse GetPersonByCellPhoneNumber(string cellPhoneNumber)
+        {
+            return _persons.FirstOrDefault(p => p.CellPhoneNumber == cellPhoneNumber);
+        }
     }
 }
