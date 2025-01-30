@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9813E09B-8232-464E-8E15-0631565CC6A0}</ProjectGuid>
+    <ProjectGuid>{10E2F56A-1029-4311-89D4-96F89546420B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ClassLibrary3</RootNamespace>
@@ -45,8 +45,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary2\PersonService.DTOs.csproj">
-      <Project>{a6213d19-0203-4a42-b2c9-9a0658fc3f86}</Project>
+    <ProjectReference Include="..\PersonService.DTOs\PersonService.DTOs.csproj">
+      <Project>{499216a5-5a02-4214-bd09-4ab42a5c5e45}</Project>
       <Name>PersonService.DTOs</Name>
     </ProjectReference>
   </ItemGroup>

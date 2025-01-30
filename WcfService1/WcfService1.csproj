@@ -83,13 +83,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary2\PersonService.DTOs.csproj">
-      <Project>{A6213D19-0203-4A42-B2C9-9A0658FC3F86}</Project>
-      <Name>PersonService.DTOs</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ClassLibrary4\PersonService.BusinessLogicLayer.csproj">
-      <Project>{321890be-4133-49b7-acf5-6a9ced34e362}</Project>
+    <ProjectReference Include="..\PersonService.BusinessLogicLayer\PersonService.BusinessLogicLayer.csproj">
+      <Project>{3cf7fd33-d3de-415e-b75d-6f200a303901}</Project>
       <Name>PersonService.BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersonService.DTOs\PersonService.DTOs.csproj">
+      <Project>{499216a5-5a02-4214-bd09-4ab42a5c5e45}</Project>
+      <Name>PersonService.DTOs</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

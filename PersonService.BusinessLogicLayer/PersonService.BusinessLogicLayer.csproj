@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6213D19-0203-4A42-B2C9-9A0658FC3F86}</ProjectGuid>
+    <ProjectGuid>{3CF7FD33-D3DE-415E-B75D-6F200A303901}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClassLibrary2</RootNamespace>
-    <AssemblyName>ClassLibrary2</AssemblyName>
+    <RootNamespace>ClassLibrary4</RootNamespace>
+    <AssemblyName>ClassLibrary4</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,9 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PersonRequest.cs" />
-    <Compile Include="PersonResponse.cs" />
+    <Compile Include="PersonService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PersonService.DataAccessLayer\PersonService.DataAccessLayer.csproj">
+      <Project>{10e2f56a-1029-4311-89d4-96f89546420b}</Project>
+      <Name>PersonService.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersonService.DTOs\PersonService.DTOs.csproj">
+      <Project>{499216a5-5a02-4214-bd09-4ab42a5c5e45}</Project>
+      <Name>PersonService.DTOs</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
