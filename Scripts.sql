@@ -1,0 +1,9 @@
+﻿CREATE TABLE Clients (
+    Id UNIQUEIDENTIFIER PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    LastName NVARCHAR(100) NOT NULL,
+    CellPhoneNumber NVARCHAR(20) NOT NULL,
+    DocumentType NVARCHAR(50) NOT NULL,
+    DocumentNumber NVARCHAR(50) NOT NULL,
+    ReasonOfUse NVARCHAR(MAX) NOT NULL
+);

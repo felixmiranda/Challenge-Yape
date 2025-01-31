@@ -37,6 +37,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YapeService.Infraestructure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YapeService.Api", "YapeService.Api\YapeService.Api.csproj", "{6114AA3D-59F0-40EF-BBE2-46F4AA5B7CB5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{920DD712-0DF6-4A84-96A6-5F9505DE96E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BD", "BD", "{70E6A702-D3FB-4ED5-A75F-784472330FF2}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts.sql = Scripts.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +99,7 @@ Global
 		{99CA1034-E4A9-4947-9466-AD7CD6FAA2C1} = {99AFAA20-85C1-4BDC-92E8-99E4DD36F71C}
 		{8428E910-400B-4124-9196-F9891D1ADBA3} = {F33C478C-BC2F-49BC-A799-A9723E6003F4}
 		{6114AA3D-59F0-40EF-BBE2-46F4AA5B7CB5} = {1E131B6C-C2A8-47F4-BF9D-F4C26C9FACC6}
+		{70E6A702-D3FB-4ED5-A75F-784472330FF2} = {920DD712-0DF6-4A84-96A6-5F9505DE96E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4549FB4-7E25-4917-BBE0-FA82AB393EED}
